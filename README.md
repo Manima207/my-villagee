@@ -1,1 +1,1 @@
-# my-villagee
+# my-village
