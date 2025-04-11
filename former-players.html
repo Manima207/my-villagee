@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Former Players - Village Cricket Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/former-players.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Village Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recent-festivals.html">Festivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="former-players.html">Cricket Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section cricket-hero">
+        <div class="container">
+            <div class="hero-content text-center text-white">
+                <h1>Village Cricket Team - Hall of Fame</h1>
+                <p>Celebrating the legends who built our cricketing legacy</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row mb-4">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2>Former Players & Legends</h2>
+                <p class="lead">These talented individuals have shaped our village's cricketing history over the years, bringing glory and pride to our community.</p>
+            </div>
+        </div>
+
+        <!-- Filter buttons for player roles -->
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <div class="filter-container">
+                    <div class="btn-group player-role-filter" role="group" aria-label="Player role filter">
+                        <button type="button" class="btn btn-outline-primary player-filter-btn active" data-role="all">All Players</button>
+                        <button type="button" class="btn btn-outline-primary player-filter-btn" data-role="batsman">Batsmen</button>
+                        <button type="button" class="btn btn-outline-primary player-filter-btn" data-role="bowler">Bowlers</button>
+                        <button type="button" class="btn btn-outline-primary player-filter-btn" data-role="all-rounder">All-rounders</button>
+                        <button type="button" class="btn btn-outline-primary player-filter-btn" data-role="captain">Captains</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Players Grid -->
+        <div class="row g-4">
+            <!-- Former Player 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="former-player-card detailed" data-role="all-rounder captain">
+                    <div class="player-header">
+                        <span class="player-era">1985-2005</span>
+                    </div>
+                    <img src="src/img/former-player1.jpg" alt="Mohan Singh" class="player-img">
+                    <div class="player-content">
+                        <h3>Mohan Singh</h3>
+                        <p class="player-role">Former Captain & All-rounder</p>
+                        
+                        <div class="player-stats-container">
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">120</span>
+                                    <span class="stat-label">Matches</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">4,850</span>
+                                    <span class="stat-label">Runs</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">150</span>
+                                    <span class="stat-label">Wickets</span>
+                                </div>
+                            </div>
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">48.5</span>
+                                    <span class="stat-label">Batting Avg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">22.3</span>
+                                    <span class="stat-label">Bowling Avg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">8</span>
+                                    <span class="stat-label">Centuries</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="player-achievements">
+                            <h5>Career Highlights</h5>
+                            <ul>
+                                <li>Led the team to 3 consecutive regional championships (1992-1994)</li>
+                                <li>Named "Village Cricketer of the Decade" for 1990-2000</li>
+                                <li>Best all-round performance: 156* runs and 5/42 vs Greendale (1998)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Former Player 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="former-player-card detailed" data-role="bowler">
+                    <div class="player-header">
+                        <span class="player-era">1990-2010</span>
+                    </div>
+                    <img src="src/img/former-player2.jpg" alt="Rajiv Desai" class="player-img">
+                    <div class="player-content">
+                        <h3>Rajiv Desai</h3>
+                        <p class="player-role">Fast Bowler</p>
+                        
+                        <div class="player-stats-container">
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">95</span>
+                                    <span class="stat-label">Matches</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">210</span>
+                                    <span class="stat-label">Wickets</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">7/22</span>
+                                    <span class="stat-label">Best Bowling</span>
+                                </div>
+                            </div>
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">18.5</span>
+                                    <span class="stat-label">Bowling Avg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">4.2</span>
+                                    <span class="stat-label">Economy</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">12</span>
+                                    <span class="stat-label">5-wicket hauls</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="player-achievements">
+                            <h5>Career Highlights</h5>
+                            <ul>
+                                <li>Village record: 210 wickets at average of 18.5</li>
+                                <li>Took 3 hat-tricks during his career</li>
+                                <li>Selected for district team 8 consecutive years (1995-2002)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Former Player 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="former-player-card detailed" data-role="batsman">
+                    <div class="player-header">
+                        <span class="player-era">1988-2006</span>
+                    </div>
+                    <img src="src/img/former-player3.jpg" alt="Sunil Mehta" class="player-img">
+                    <div class="player-content">
+                        <h3>Sunil Mehta</h3>
+                        <p class="player-role">Opening Batsman</p>
+                        
+                        <div class="player-stats-container">
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">110</span>
+                                    <span class="stat-label">Matches</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">4,500</span>
+                                    <span class="stat-label">Runs</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">178*</span>
+                                    <span class="stat-label">Highest Score</span>
+                                </div>
+                            </div>
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">52.3</span>
+                                    <span class="stat-label">Batting Avg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">12</span>
+                                    <span class="stat-label">Centuries</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">28</span>
+                                    <span class="stat-label">Fifties</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="player-achievements">
+                            <h5>Career Highlights</h5>
+                            <ul>
+                                <li>Highest run scorer with 4,500 runs and 12 centuries</li>
+                                <li>Record opening partnership of 245 runs with Ajay Kumar (1998)</li>
+                                <li>Scored centuries in 4 consecutive matches (2001 season)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Former Player 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="former-player-card detailed" data-role="all-rounder">
+                    <div class="player-header">
+                        <span class="player-era">1995-2012</span>
+                    </div>
+                    <img src="src/img/former-player4.jpg" alt="Kamala Devi" class="player-img">
+                    <div class="player-content">
+                        <h3>Kamala Devi</h3>
+                        <p class="player-role">All-rounder</p>
+                        
+                        <div class="player-stats-container">
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">88</span>
+                                    <span class="stat-label">Matches</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">2,680</span>
+                                    <span class="stat-label">Runs</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">105</span>
+                                    <span class="stat-label">Wickets</span>
+                                </div>
+                            </div>
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">42.5</span>
+                                    <span class="stat-label">Batting Avg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">24.8</span>
+                                    <span class="stat-label">Bowling Avg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">132</span>
+                                    <span class="stat-label">Highest Score</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="player-achievements">
+                            <h5>Career Highlights</h5>
+                            <ul>
+                                <li>First female player to score a century for the village</li>
+                                <li>Match-winning performance: 98* runs and 4/32 in the 2008 district final</li>
+                                <li>Scored fastest fifty (28 balls) in team history</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Former Player 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="former-player-card detailed" data-role="batsman">
+                    <div class="player-header">
+                        <span class="player-era">1982-1998</span>
+                    </div>
+                    <img src="src/img/placeholder-player.jpg" alt="Vikram Sharma" class="player-img">
+                    <div class="player-content">
+                        <h3>Vikram Sharma</h3>
+                        <p class="player-role">Middle-order Batsman</p>
+                        
+                        <div class="player-stats-container">
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">105</span>
+                                    <span class="stat-label">Matches</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">3,850</span>
+                                    <span class="stat-label">Runs</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">145</span>
+                                    <span class="stat-label">Highest Score</span>
+                                </div>
+                            </div>
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">45.2</span>
+                                    <span class="stat-label">Batting Avg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">7</span>
+                                    <span class="stat-label">Centuries</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">24</span>
+                                    <span class="stat-label">Fifties</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="player-achievements">
+                            <h5>Career Highlights</h5>
+                            <ul>
+                                <li>Renowned for his defensive technique and patience at the crease</li>
+                                <li>Played 89 consecutive matches (1985-1994) without missing a game</li>
+                                <li>Known as "The Wall" for his solid defense under pressure</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Former Player 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="former-player-card detailed" data-role="bowler captain">
+                    <div class="player-header">
+                        <span class="player-era">1975-1992</span>
+                    </div>
+                    <img src="src/img/placeholder-player.jpg" alt="Raman Patel" class="player-img">
+                    <div class="player-content">
+                        <h3>Raman Patel</h3>
+                        <p class="player-role">Spin Bowler & Former Captain</p>
+                        
+                        <div class="player-stats-container">
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">150</span>
+                                    <span class="stat-label">Matches</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">265</span>
+                                    <span class="stat-label">Wickets</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">8/45</span>
+                                    <span class="stat-label">Best Bowling</span>
+                                </div>
+                            </div>
+                            <div class="stats-row">
+                                <div class="stat-item">
+                                    <span class="stat-value">20.8</span>
+                                    <span class="stat-label">Bowling Avg</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">3.8</span>
+                                    <span class="stat-label">Economy</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-value">15</span>
+                                    <span class="stat-label">5-wicket hauls</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="player-achievements">
+                            <h5>Career Highlights</h5>
+                            <ul>
+                                <li>Captained the team for 10 years (1980-1990)</li>
+                                <li>Most wickets in team's history before Rajiv Desai broke his record</li>
+                                <li>Started the village youth cricket program in 1985</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hall of Fame -->
+        <div class="hall-of-fame-section mt-5 pt-5">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2>Hall of Fame</h2>
+                    <p class="lead">Special recognition for extraordinary contributions to our village cricket</p>
+                </div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>1992: Inauguration of the Village Cricket Ground</h4>
+                        <p>Led by Mohan Singh and community volunteers, our modern cricket ground was established.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>1998: First Regional Championship</h4>
+                        <p>Our team won their first regional championship under Captain Mohan Singh's leadership.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2005: Youth Development Program</h4>
+                        <p>Raman Patel's youth cricket program produced five players who later represented district teams.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2012: Women's Cricket Initiative</h4>
+                        <p>Kamala Devi started the village's first women's cricket team, breaking barriers in rural sports.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Village Website</h5>
+                    <p>Celebrating our community, heritage, and future together.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="recent-festivals.html" class="text-white">Cultural Festivals</a></li>
+                        <li><a href="#" class="text-white">News & Events</a></li>
+                        <li><a href="#" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 Village Website. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/js/script.js"></script>
+</body>
+</html> 

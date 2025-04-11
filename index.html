@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Village</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="src/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Naranpur</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cultural-fest">Cultural Fest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cricket-team">Cricket Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#leadership">Leadership</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 hero-text-content" data-aos="fade-right" data-aos-duration="1000">
+                        <h1 class="hero-title">Welcome to <span class="village-name">Naranpur</span></h1>
+                        <div class="hero-divider"></div>
+                        <p class="hero-subtitle">A beautiful place with rich culture, talented people, and strong community spirit.</p>
+                        <div class="hero-features">
+                            <div class="hero-feature">
+                                <i class="bi bi-calendar-event"></i>
+                                <span>Annual Cultural Festival</span>
+                            </div>
+                            <div class="hero-feature">
+                                <i class="bi bi-trophy"></i>
+                                <span>Regional Cricket Champions</span>
+                            </div>
+                            <div class="hero-feature">
+                                <i class="bi bi-people"></i>
+                                <span>Vibrant Community</span>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#cultural-fest" class="btn btn-primary hero-btn">Explore Culture</a>
+                            <a href="#cricket-team" class="btn btn-outline-light hero-btn-outline">Meet Our Team</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="hero-image-showcase">
+                            <div class="hero-image-container">
+                                <img src="src/img/festival-poster.png" alt="Village View" class="hero-image">
+                                <div class="image-dots"></div>
+                            </div>
+                            <div class="image-decorations">
+                                <div class="decoration-circle decoration-circle-1"></div>
+                                <div class="decoration-circle decoration-circle-2"></div>
+                                <div class="decoration-line decoration-line-1"></div>
+                                <div class="decoration-line decoration-line-2"></div>
+                                <div class="sparkle sparkle-1"><i class="bi bi-star-fill"></i></div>
+                                <div class="sparkle sparkle-2"><i class="bi bi-star-fill"></i></div>
+                                <div class="sparkle sparkle-3"><i class="bi bi-star-fill"></i></div>
+                            </div>
+                            <div class="image-frame"></div>
+                            <div class="image-caption">
+                                <span>Cultural Festival 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <a href="#cultural-fest">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div>
+                        <span class="scroll-arrows">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+            <div class="hero-shape hero-shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Cultural Fest Section -->
+    <section id="cultural-fest" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Annual Cultural Festival</h2>
+                    <hr class="w-25 mx-auto">
+                    <p class="lead mt-3">A colorful celebration of our rich heritage and traditions</p>
+                </div>
+                
+                <!-- Festival Gallery -->
+                <div class="col-12 mb-5">
+                    <div class="festival-gallery">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="festival-img-container">
+                                    <img src="src/img/chhau-dance.jpg" alt="Traditional Dance" class="festival-img">
+                                    <div class="festival-img-overlay">
+                                        <h4>Traditional Dance</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="festival-img-container">
+                                    <img src="src/img/images.jpg" alt="Folk Music" class="festival-img">
+                                    <div class="festival-img-overlay">
+                                        <h4>Folk Music</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="recent-festivals.html" class="festival-link">
+                                    <div class="festival-img-container">
+                                        <img src="src/img/dola-purnima-celebration.jpg" alt="Recent Festivals" class="festival-img">
+                                        <div class="festival-img-overlay">
+                                            <h4>Recent Festivals</h4>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="festival-highlights-card">
+                        <h3><i class="bi bi-calendar-event"></i> Festival Highlights</h3>
+                        <div class="festival-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h5>Traditional Dance Performances</h5>
+                                    <p>Experience the vibrant rhythm and grace of our traditional dance forms passed down through generations.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h5>Local Cuisine Exhibition</h5>
+                                    <p>Savor the authentic flavors of our village with dishes prepared using traditional recipes and local ingredients.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h5>Folk Music Competition</h5>
+                                    <p>Listen to the soul-stirring melodies of our folk musicians as they compete and showcase their talents.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h5>Village History Exhibition</h5>
+                                    <p>Discover the rich heritage and fascinating stories of our village through historical artifacts and photographs.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h5>Arts and Crafts Showcase</h5>
+                                    <p>Admire the exquisite craftsmanship and artistic skills of our talented village artisans.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Upcoming Festival</h3>
+                    <div class="upcoming-festival-card">
+                        <div class="festival-poster-wrapper">
+                            <img src="src/img/festival-poster.png" alt="Cultural Festival 2025" class="festival-poster">
+                            <div class="festival-date-badge">
+                                <span class="festival-month">April</span>
+                                <span class="festival-days">14</span>
+                                <span class="festival-year">2025</span>
+                            </div>
+                        </div>
+                        <div class="upcoming-festival-content">
+                            <h4 class="festival-title">Cultural Festival 2025</h4>
+                            <p>Our annual cultural festival is a celebration of our village's heritage, traditions, and talents. Join us for a week of music, dance, food, and festivities.</p>
+                            <div class="festival-details">
+                                <div class="festival-detail-item">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    <span>ହନୁ ଛକ, ନାରଣପୁର</span>
+                                </div>
+                                <div class="festival-detail-item">
+                                    <i class="bi bi-people-fill"></i>
+                                    <span>Expected 2,000+ visitors</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-3" id="viewScheduleBtn">
+                                <i class="bi bi-calendar-check me-2"></i>View Schedule
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cricket Team Section -->
+    <section id="cricket-team" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Naranpur Cricket Team</h2>
+                    <hr class="w-25 mx-auto">
+                    <p class="lead mt-3">Our pride and joy - the champions of the regional tournament</p>
+                </div>
+                
+                <!-- Team Management with Images -->
+                <div class="col-12 mb-5">
+                    <h3 class="text-center mb-4">Team Management</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 mb-4">
+                            <div class="team-card text-center">
+                                <div class="team-img-wrapper mb-3">
+                                    <img src="src/img/placeholder-coach.jpg" alt="Coach" class="team-img">
+                                </div>
+                                <h4>Coach</h4>
+                                <h5>Mr. Brijesh Kumar Routray</h5>
+                                <p class="text-muted">Former state-level player with 15 years of coaching experience</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="team-card text-center">
+                                <div class="team-img-wrapper mb-3">
+                                    <img src="src/img/placeholder-president.jpg" alt="President" class="team-img">
+                                </div>
+                                <h4>President</h4>
+                                <h5>Mr. Antaryami Mallick</h5>
+                                <p class="text-muted">Village elder and cricket enthusiast</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="team-card text-center">
+                                <div class="team-img-wrapper mb-3">
+                                    <img src="src/img/placeholder-vice-president.jpg" alt="Vice President" class="team-img">
+                                </div>
+                                <h4>Vice President</h4>
+                                <h5>Mrs. Anil Samantaray</h5>
+                                <p class="text-muted">Former sports administrator and community leader</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Players with Images - Batsmen -->
+                <div class="col-12 mb-5">
+                    <h3 class="text-center mb-4">Batsmen</h3>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">1</div>
+                                    <img src="src/img/69257289.webp" alt="Rahul Sharma" class="player-img">
+                                </div>
+                                <h5>Biswajit Samantaray</h5>
+                                <p class="player-role">Captain & Batsman</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 1250 Runs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">2</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Vikram Patel" class="player-img">
+                                </div>
+                                <h5>Rajesh Das</h5>
+                                <p class="player-role">Batsman</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 980 Runs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">3</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Suresh Reddy" class="player-img">
+                                </div>
+                                <h5>Animesh Routray</h5>
+                                <p class="player-role">Batsman</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 870 Runs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">4</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Ajay Kumar" class="player-img">
+                                </div>
+                                <h5>Ajay Mishra</h5>
+                                <p class="player-role">Batsman</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 760 Runs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">5</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Ravi Verma" class="player-img">
+                                </div>
+                                <h5>Anirudha Rout</h5>
+                                <p class="player-role">Batsman</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 680 Runs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">5</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Ravi Verma" class="player-img">
+                                </div>
+                                <h5>Priyanhu Rout</h5>
+                                <p class="player-role">Batsman</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 680 Runs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">5</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Ravi Verma" class="player-img">
+                                </div>
+                                <h5>Chittaranjan Beura</h5>
+                                <p class="player-role">Batsman</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 680 Runs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Players with Images - Bowlers -->
+                <div class="col-12 mb-5">
+                    <h3 class="text-center mb-4">Bowlers</h3>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">6</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Mahesh Yadav" class="player-img">
+                                </div>
+                                <h5>Antaryami Mallick</h5>
+                                <p class="player-role">Fast Bowler</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 45 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">7</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Sanjay Singh" class="player-img">
+                                </div>
+                                <h5>Soumyaranjan Mallick</h5>
+                                <p class="player-role">Spin Bowler</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 38 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">7</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Sanjay Singh" class="player-img">
+                                </div>
+                                <h5>Kanhu Charan Das</h5>
+                                <p class="player-role">Spin Bowler</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 38 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">8</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Vijay Chauhan" class="player-img">
+                                </div>
+                                <h5>Diptiranjan Das</h5>
+                                <p class="player-role">Medium Pace Bowler</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 35 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">9</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Dinesh Tiwari" class="player-img">
+                                </div>
+                                <h5>Dinesh Tiwari</h5>
+                                <p class="player-role">Spin Bowler</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 30 Wickets</span>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">10</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Prakash Roy" class="player-img">
+                                </div>
+                                <h5>Prakash Roy</h5>
+                                <p class="player-role">Fast Bowler</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 28 Wickets</span>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                
+                <!-- Team Players with Images - All-Rounders -->
+                <div class="col-12 mb-5">
+                    <h3 class="text-center mb-4">All-Rounders</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">11</div>
+                                    <img src="src/img/A1.jpeg" alt="Amit Joshi" class="player-img">
+                                </div>
+                                <h5>Anil Samantaray</h5>
+                                <p class="player-role">All-Rounder</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 450 Runs, 20 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">12</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Kishore Kumar" class="player-img">
+                                </div>
+                                <h5>Brijesh Kumar Routray</h5>
+                                <p class="player-role">All-Rounder</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 380 Runs, 18 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">13</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Deepak Gupta" class="player-img">
+                                </div>
+                                <h5>Pritiranjan Das</h5>
+                                <p class="player-role">All-Rounder</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 320 Runs, 15 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">13</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Deepak Gupta" class="player-img">
+                                </div>
+                                <h5>Aswini Mohanty</h5>
+                                <p class="player-role">All-Rounder</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 320 Runs, 15 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">13</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Deepak Gupta" class="player-img">
+                                </div>
+                                <h5>Shraban Mallick</h5>
+                                <p class="player-role">All-Rounder</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 320 Runs, 15 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">13</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Deepak Gupta" class="player-img">
+                                </div>
+                                <h5>Mitu</h5>
+                                <p class="player-role">All-Rounder</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 320 Runs, 15 Wickets</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">13</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Deepak Gupta" class="player-img">
+                                </div>
+                                <h5>Chitta</h5>
+                                <p class="player-role">All-Rounder</p>
+                                <div class="player-stats">
+                                    <span><i class="bi bi-trophy"></i> 320 Runs, 15 Wickets</span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+               </div> 
+                
+                <!-- Team Players with Images - Substitutes -->
+                <div class="col-12 mb-5">
+                    <h3 class="text-center mb-4">Impact Players</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">14</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Ramesh Yadav" class="player-img">
+                                </div>
+                                <h5>Satyajit Mohanty</h5>
+                                <p class="player-role">Substitute</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">15</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Santosh Kumar" class="player-img">
+                                </div>
+                                <h5>Sumit Ranjan Routray</h5>
+                                <p class="player-role">Substitute</p>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-4 col-lg-3 mb-4">
+                            <div class="player-card text-center">
+                                <div class="player-img-wrapper mb-3">
+                                    <div class="player-number">16</div>
+                                    <img src="src/img/placeholder-player.jpg" alt="Kamal Mishra" class="player-img">
+                                </div>
+                                <h5></h5>
+                                <p class="player-role">Substitute</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div> 
+                
+                <!-- Former Players Section -->
+                <!-- <div class="col-12">
+                    <div class="former-players-container mt-5">
+                        <h3 class="text-center mb-4">Former Players</h3>
+                        
+                         Filter buttons for player roles -->
+                        <!-- <div class="text-center mb-4">
+                            <div class="btn-group player-role-filter" role="group" aria-label="Player role filter">
+                                <button type="button" class="btn btn-outline-primary player-filter-btn active" data-role="all">All Players</button>
+                                <button type="button" class="btn btn-outline-primary player-filter-btn" data-role="batsman">Batsmen</button>
+                                <button type="button" class="btn btn-outline-primary player-filter-btn" data-role="bowler">Bowlers</button>
+                                <button type="button" class="btn btn-outline-primary player-filter-btn" data-role="all-rounder">All-rounders</button>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                             Former Player 1 -->
+                            <!-- <div class="col-md-3 col-sm-6 mb-4">
+                                <div class="former-player-card" data-role="all-rounder">
+                                    <img src="src/img/former-player1.jpg" alt="Mohan Singh" class="player-img">
+                                    <div class="player-content">
+                                        <h4>Mohan Singh</h4>
+                                        <p class="player-role">Former Captain & All-rounder</p>
+                                        <p class="player-stats">1985-2005 • 120 matches</p>
+                                        <p class="player-achievement">Led the team to 3 consecutive regional championships</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                             Former Player 2 -->
+                            <!-- <div class="col-md-3 col-sm-6 mb-4">
+                                <div class="former-player-card" data-role="bowler">
+                                    <img src="src/img/former-player2.jpg" alt="Rajiv Desai" class="player-img">
+                                    <div class="player-content">
+                                        <h4>Rajiv Desai</h4>
+                                        <p class="player-role">Fast Bowler</p>
+                                        <p class="player-stats">1990-2010 • 95 matches</p>
+                                        <p class="player-achievement">Village record: 210 wickets at average of 18.5</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                            
+                            <!-- Former Player 3 -->
+                            <!-- <div class="col-md-3 col-sm-6 mb-4">
+                                <div class="former-player-card" data-role="batsman">
+                                    <img src="src/img/former-player3.jpg" alt="Sunil Mehta" class="player-img">
+                                    <div class="player-content">
+                                        <h4>Sunil Mehta</h4>
+                                        <p class="player-role">Opening Batsman</p>
+                                        <p class="player-stats">1988-2006 • 110 matches</p>
+                                        <p class="player-achievement">Highest run scorer with 4,500 runs and 12 centuries</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                            
+                            <!-- Former Player 4 -->
+                            <!-- <div class="col-md-3 col-sm-6 mb-4">
+                                <div class="former-player-card" data-role="all-rounder">
+                                    <img src="src/img/former-player4.jpg" alt="Kamala Devi" class="player-img">
+                                    <div class="player-content">
+                                        <h4>Kamala Devi</h4>
+                                        <p class="player-role">All-rounder</p>
+                                        <p class="player-stats">1995-2012 • 88 matches</p>
+                                        <p class="player-achievement">First female player to score a century for the village</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        <!-- </div>  -->
+                        
+                        <!-- <div class="text-center mt-4">
+                            <a href="former-players.html" class="btn btn-primary view-all-btn">View All Former Players</a>
+                        </div> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="section-title">Selfless Working Leaders</h2>
+                    <hr class="w-25 mx-auto">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Santosh Mishra</h3>
+                            <p class="card-text">Serving as village president since 2020. Led several development initiatives including water conservation and solar energy projects.</p>
+                            <p><strong>Contact:</strong> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Aswini Samantaray</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Nityananda Mallick</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong> vicepresident@ourvillage.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Ashish Mohanty</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Smruti Ranjan Beura</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Ajay Mishra</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Manoj Kumar Mallick</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Raghunath Das</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Abhaya kumar Pallai</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Subash Mallick</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Madhaba Das</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Santosh Mohanty</h3>
+                            <p class="card-text">Working alongside the president to improve education and healthcare facilities in the village. Leads women's empowerment programs.</p>
+                            <p><strong>Contact:</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full-width Text Box Section -->
+    <section class="full-width-text-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-box p-4 shadow-sm">
+                        <h3 class="mb-3">Important Announcement</h3>
+                        <div class="text-content">
+                            <!-- Text content will go here -->
+                            <p>If you are feeling missing-out from the list of Leaders, please contact us at <a href="mailto:manima.sr27@gmail.com">manima.sr27@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Naranpur</h5>
+
+                    <p>A beautiful community with rich traditions and strong values.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">Home</a></li>
+                        <li><a href="#cultural-fest" class="text-white">Cultural Fest</a></li>
+                        <li><a href="#cricket-team" class="text-white">Cricket Team</a></li>
+                        <li><a href="#leadership" class="text-white">Leadership</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <address>
+                        Naranpur,<br>
+                        Hanuchhaka,<br>
+                        Main Street, Village Center<br>
+                        Email: manima.sr27@gmail.com<br>
+                        <!-- Phone: (123) 456-7890 -->
+                    </address>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="mb-0">© 2025 Our Village. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="src/js/main.js"></script>
+
+    <!-- Festival Schedule Overlay -->
+    <div class="schedule-overlay" id="scheduleOverlay">
+        <div class="schedule-overlay-content">
+            <span class="close-overlay" id="closeOverlay"><i class="bi bi-x-lg"></i></span>
+            <h2 class="schedule-heading">Cultural Festival 2025 Schedule</h2>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 1: April 14, 2025</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">9:00 AM - 10:30 AM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Opening Ceremony</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Main Stage, Village Square</div>
+                        <div class="schedule-description">Inauguration by the village president and cultural performances by local artists.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">11:00 AM - 1:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Traditional Dance Competition</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Community Hall</div>
+                        <div class="schedule-description">Showcase of various traditional dance forms performed by participants from neighboring villages.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">1:30 PM - 3:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Community Lunch</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Food Court Area</div>
+                        <div class="schedule-description">Traditional cuisine prepared by local families, featuring regional specialties.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">3:30 PM - 5:30 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Folk Music Performances</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Main Stage</div>
+                        <div class="schedule-description">Live performances by renowned folk musicians from the region.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">6:00 PM - 8:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Cultural Heritage Exhibition</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Exhibition Hall</div>
+                        <div class="schedule-description">Display of historical artifacts, photographs, and storytelling sessions about village history.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 2: April 15, 2025</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">9:00 AM - 11:00 AM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Children's Art Workshop</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village School</div>
+                        <div class="schedule-description">Creative arts and crafts activities for children to learn traditional art forms.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">11:30 AM - 1:30 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Traditional Cooking Competition</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Food Court Area</div>
+                        <div class="schedule-description">Local cooks showcase their culinary talents with traditional recipes.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">2:00 PM - 4:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Cultural Symposium</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Community Hall</div>
+                        <div class="schedule-description">Discussions and talks on preserving cultural heritage and traditions.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">4:30 PM - 6:30 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Village Talent Show</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Main Stage</div>
+                        <div class="schedule-description">Performances by village residents showcasing various talents and skills.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">7:00 PM - 9:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Community Dinner & Cultural Night</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Square</div>
+                        <div class="schedule-description">Festive dinner followed by traditional music and dance performances.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 3: April 16, 2025</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">9:00 AM - 11:00 AM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Traditional Pottery Workshop</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Craftsmen Quarter</div>
+                        <div class="schedule-description">Learn the ancient pottery techniques from village masters and create your own pottery items.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">11:30 AM - 1:30 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Tribal Dance Workshop</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Community Hall</div>
+                        <div class="schedule-description">Learn traditional tribal dance steps from expert dancers of the region.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">2:00 PM - 4:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Storytelling Session</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Library</div>
+                        <div class="schedule-description">Village elders narrate folk tales and legends passed down through generations.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">5:00 PM - 8:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Community Theatre</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Main Stage</div>
+                        <div class="schedule-description">Traditional theatrical performance depicting historical events of the village.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 4: April 17, 2025</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">8:00 AM - 10:00 AM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Yoga by the Lake</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Lake</div>
+                        <div class="schedule-description">Morning yoga session led by master practitioners in the serene environment of the village lake.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">10:30 AM - 1:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Traditional Medicine Exhibition</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Health Center</div>
+                        <div class="schedule-description">Learn about traditional medicinal practices and herbal remedies used in the village for centuries.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">2:00 PM - 5:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Agricultural Fair</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Fields</div>
+                        <div class="schedule-description">Farmers showcase their produce and traditional farming techniques. Includes competitions for best produce.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">6:00 PM - 9:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Folk Music Night</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Square</div>
+                        <div class="schedule-description">Evening of folk music performances featuring local and regional artists.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 5: April 18, 2025</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">9:00 AM - 12:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Children's Cultural Competition</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> School Grounds</div>
+                        <div class="schedule-description">Young participants showcase their cultural talents through various art forms.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">1:00 PM - 3:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Weaving Demonstration</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Crafts Pavilion</div>
+                        <div class="schedule-description">Master weavers demonstrate traditional textile making techniques with hands-on sessions for visitors.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">3:30 PM - 5:30 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Poetry and Literature Circle</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Library</div>
+                        <div class="schedule-description">Readings of regional poetry and literary works with discussions on cultural significance.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">7:00 PM - 10:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Traditional Dance Performance</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Main Stage</div>
+                        <div class="schedule-description">Grand showcase of various traditional dance forms from the region.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 6: April 19, 2025</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">10:00 AM - 12:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Historical Village Tour</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Meeting at Village Center</div>
+                        <div class="schedule-description">Guided tour of historical sites within the village with stories of their significance.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">1:00 PM - 3:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Culinary Workshop</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Community Kitchen</div>
+                        <div class="schedule-description">Learn to prepare traditional dishes under the guidance of village culinary experts.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">3:30 PM - 5:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Elder's Forum</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Community Hall</div>
+                        <div class="schedule-description">Panel discussion with village elders sharing wisdom and life experiences.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">6:00 PM - 9:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Cultural Movie Night</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Open Air Theatre</div>
+                        <div class="schedule-description">Screening of films depicting regional culture and heritage.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 7: April 20, 2025</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">9:00 AM - 11:00 AM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Traditional Sports Day</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Sports Ground</div>
+                        <div class="schedule-description">Demonstration and competitions of traditional village sports and games.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">12:00 PM - 2:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Community Lunch</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Square</div>
+                        <div class="schedule-description">Large communal meal featuring various traditional dishes prepared by the community.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">2:30 PM - 4:30 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Art Exhibition</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Art Gallery</div>
+                        <div class="schedule-description">Showcase of paintings, sculptures, and other art forms by local artists.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">5:00 PM - 8:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Musical Instrument Workshop</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Music Pavilion</div>
+                        <div class="schedule-description">Introduction to traditional musical instruments with demonstration and hands-on sessions.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 8: April 21, 2025</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">10:00 AM - 12:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Handicraft Fair</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Market Square</div>
+                        <div class="schedule-description">Exhibition and sale of handmade crafts and artifacts created by local artisans.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">1:00 PM - 3:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Environmental Awareness Program</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Park</div>
+                        <div class="schedule-description">Educational sessions on traditional conservation practices and their relevance today.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">4:00 PM - 6:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Cultural Fashion Show</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Main Stage</div>
+                        <div class="schedule-description">Showcase of traditional attire and textiles from the region modeled by community members.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">7:00 PM - 10:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Night of Dance and Music</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Village Square</div>
+                        <div class="schedule-description">Community gathering with performances and participatory dance and music.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3 class="schedule-day-title">Day 9: April 22, 2025 (Closing Day)</h3>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">9:00 AM - 11:00 AM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Community Service Project</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Throughout Village</div>
+                        <div class="schedule-description">Collaborative community service activities focusing on village improvement and beautification.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">12:00 PM - 2:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Festival Awards Ceremony</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Community Hall</div>
+                        <div class="schedule-description">Recognition of participants and winners from various competitions held during the festival.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">3:00 PM - 5:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Cultural Parade</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Main Village Road</div>
+                        <div class="schedule-description">Grand parade featuring traditional costumes, music, and floats representing various aspects of village culture.</div>
+                    </div>
+                </div>
+                
+                <div class="schedule-event">
+                    <div class="schedule-time">6:00 PM - 9:00 PM</div>
+                    <div class="schedule-details">
+                        <div class="schedule-title">Closing Ceremony & Grand Finale</div>
+                        <div class="schedule-location"><i class="bi bi-geo-alt"></i> Main Stage</div>
+                        <div class="schedule-description">Official closing of the festival with spectacular cultural performances, fireworks, and community celebration.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Player Stats Overlay -->
+    <div class="player-stats-overlay" id="playerStatsOverlay">
+        <div class="player-stats-content">
+            <span class="close-player-stats" id="closePlayerStats"><i class="bi bi-x-lg"></i></span>
+            
+            <div class="player-profile">
+                <img src="" alt="Player" class="player-profile-img" id="playerOverlayImg">
+                <div class="player-profile-info">
+                    <h3 id="playerOverlayName"></h3>
+                    <p class="player-profile-role">
+                        <span class="player-profile-number" id="playerOverlayNumber"></span>
+                        <span id="playerOverlayRole"></span>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="player-stats-details">
+                <div class="stats-category" id="battingStats">
+                    <h4>Batting Statistics</h4>
+                    <div class="stats-row">
+                        <span class="stats-label">Matches Played</span>
+                        <span class="stats-value" id="matchesPlayed"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Total Runs</span>
+                        <span class="stats-value" id="totalRuns"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Highest Score</span>
+                        <span class="stats-value" id="highestScore"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Average</span>
+                        <span class="stats-value" id="battingAverage"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Strike Rate</span>
+                        <span class="stats-value" id="strikeRate"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Centuries</span>
+                        <span class="stats-value" id="centuries"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Half Centuries</span>
+                        <span class="stats-value" id="halfCenturies"></span>
+                    </div>
+                </div>
+                
+                <div class="stats-category" id="bowlingStats">
+                    <h4>Bowling Statistics</h4>
+                    <div class="stats-row">
+                        <span class="stats-label">Wickets</span>
+                        <span class="stats-value" id="totalWickets"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Best Bowling</span>
+                        <span class="stats-value" id="bestBowling"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Economy Rate</span>
+                        <span class="stats-value" id="economyRate"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Bowling Average</span>
+                        <span class="stats-value" id="bowlingAverage"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Five Wicket Hauls</span>
+                        <span class="stats-value" id="fiveWickets"></span>
+                    </div>
+                </div>
+                
+                <div class="stats-category" id="fieldingStats">
+                    <h4>Fielding Statistics</h4>
+                    <div class="stats-row">
+                        <span class="stats-label">Catches</span>
+                        <span class="stats-value" id="catches"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Run Outs</span>
+                        <span class="stats-value" id="runOuts"></span>
+                    </div>
+                    <div class="stats-row">
+                        <span class="stats-label">Stumpings</span>
+                        <span class="stats-value" id="stumpings"></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="player-bio" id="playerBio">
+                <!-- Player bio will be inserted here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
